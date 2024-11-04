@@ -1,0 +1,36 @@
+@media (max-width: 1100px) {
+    .container{ 
+        display:flex;      
+    }
+
+    .container .conteudo {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .container .conteudo .informacoes{
+        display: flex; 
+        flex-direction: column;
+        min-width: 250px;
+        align-items: center;
+        justify-content: center;
+        
+    
+    }
+
+    .container .conteudo .imagem img {
+        min-width: 350px;
+        min-height: 200px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;     
+        margin: 0;
+    }
+}
